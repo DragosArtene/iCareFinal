@@ -1,0 +1,161 @@
+
+body{
+  background: url("..\\img\\train.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Ubuntu', sans-serif;
+}
+.title{
+  font-size: 50px;
+  font-family: 'Impact';
+  
+  margin-left: 32%;
+  margin-top: -10%;
+  color: #413e3e;
+  position:absolute;
+  
+}
+.title2{
+  font-size: 25px;
+  font-family: 'Verdana';
+  
+  margin-left: 30%;
+
+  color: #8a848f;
+  
+
+}
+.text{
+  width: 67%;
+  margin-left: 25%;
+}
+.small{
+  position: absolute;
+  width:1%;
+  background-color: #333333;
+  margin-left: -18%;
+  height: 13%;
+}
+.small2{
+  position: absolute;
+  width:1%;
+  margin-top: 7%;
+  background-color: #333333;
+  margin-left: -18%;
+  height: 5%;
+}
+.firstText{
+  font-size: 20px;
+  font-family: 'Verdana';
+  color: #333333;
+}
+.emailText{
+  font-size: 25px;
+  font-family: 'Verdana';
+  color: #333333;
+  
+}
+.image{
+  width:30%;
+  margin-left: 33%;
+  opacity: 0.4;
+  
+}
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #1a0033;
+  text-decoration: none
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(26, 0, 51,0.6);
+}
+
+
+
+.wrapper{
+  display:flex;
+  position: absolute;
+  margin-left:34%;
+  margin-top: 2%;
+  z-index: 10;
+  opacity: 1;
+}
+
+.navBar{
+  display:block;
+  float:left;
+  flex-direction: row;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+.firstList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+}
+
+.firstLines {
+  float: left;
+  border-left: 2px solid #e27d60; 
+  border-radius: 3%;
+ 
+   transition: border-width 0.3s linear; 
+
+}
+.firstLines:hover{
+   border-width: 10px; 
+   text-underline-position: under;
+  text-decoration: underline;
+  
+}
+.firstLines a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 12px 8px 8px 8px;
+  text-decoration: none;
+  
+}
+.eventWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+p{
+  margin-top: 15%;
+  margin-left: -25%;
+  color: #1a1a1a;
+
+}
+
+
+.main {
+  align-items: center;
+  position: relative;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: rgb(255, 255, 255,0.9);
+  width: 800px;
+  height: 800px;
+  margin: 7em auto;
+  border-radius: 0.7em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+
+
+@media (max-width: 600px) {
+  .main {
+      border-radius: 0px;
+  }
+}

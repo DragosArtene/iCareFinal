@@ -1,0 +1,412 @@
+body{
+    margin:0%;
+    overflow: auto;
+    background: url("..\\img\\wall6.jpg") no-repeat center center fixed ; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #c38d9e;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sign {
+  align-self: inherit;
+  padding-top: 40px;
+  color: #dd7c3c;
+  opacity: 0.9;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0.8%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background:#e27d60;
+    font-size: 25px;
+    color: #333333;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+   }
+.filterDiv{
+  position: absolute;
+  top:20%;
+  left: 70%;
+}
+#filter{
+  background-color:  rgb(204, 255, 255, 0.6);
+  padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-top: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4%;
+  color: #dd7c3c;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+}
+#myBtn:hover {
+    background-color: #006666;
+  }
+.submit {
+    cursor: pointer;
+      border-radius: 4%;
+      color: #fff;
+      background: #41B3A3;
+      border: 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 13px;
+      box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+  .submit:hover{
+      text-decoration: none;
+      border: 1px solid rgba(0, 0, 0, 0.04);
+  }
+  .submit2{
+      position: absolute;
+      margin-left: 10%;
+      cursor: pointer;
+      border-radius: 4%;
+      color: #fff;
+      background: #41B3A3;
+      border: 0;
+      margin-top: 8.35%;
+      padding-left: 19px;
+      padding-right: 19px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 13px;
+      box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  }
+.wrapper{
+    display:flex;
+    position: absolute;
+    margin-left:35%;
+    margin-top: 2%;
+    z-index: 10;
+    opacity: 1;
+}
+
+.navBar{
+    display:block;
+    float:left;
+    flex-direction: row;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+.firstList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+  }
+  
+ .firstLines {
+    float: left;
+    border-left: 2px solid #e27d60; 
+    border-radius: 3%;
+   
+     transition: border-width 0.3s linear; 
+
+  }
+.firstLines:hover{
+     border-width: 10px; 
+     text-underline-position: under;
+    text-decoration: underline;
+    
+}
+.firstLines a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 8px 8px 8px;
+    text-decoration: none;
+    
+  }
+  .eventWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.art{
+    
+  margin-left: 7.5%;
+  margin-top: 10%;
+  width: 23.5%;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+  background-color:rgb(51, 51, 51,0.8);
+  border: 0px solid #333333;
+  border-radius: 3%;
+  position: relative;
+}
+.eventHeader{
+  font-size: 23px;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.un2 {
+  width: 76%;
+  color: #009999;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  text-align: center;
+  width:40%;
+  align-items: center;
+  margin-bottom: 27px;
+  margin-left: 12%;
+  font-family: 'Ubuntu', sans-serif;
+  }
+.updateDiv{
+  position: absolute;
+  margin-left: 23%;
+  margin-top: -4.5%;
+}
+
+#options{
+  width: 76%;
+color: #009999;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+align-items: center;
+margin-bottom: 27px;
+margin-left: 12%;
+font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.art1{
+    
+    margin-left: 8.2%;
+    margin-top: 10%;
+    width: 23.5%;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:rgb(51, 51, 51,0.8);
+    border: 0px solid #333333;
+    border-radius: 3%;
+    position: relative;
+}
+.imgEvent{
+    width: 100%;
+    height: 70%;
+    margin-top: 0%;
+    align-self: center;
+    border: 0px solid #333333;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+
+a.links{
+    margin-left: 2%;
+    margin-top: -5%;
+    color: #1a1a1a;
+    text-underline-position: under;
+    text-decoration: underline;
+    text-decoration-color: #97361c;
+}
+a.links:hover{
+   text-decoration: none;
+}
+p{
+    margin-top: 15%;
+    margin-left: -25%;
+    color: #1a1a1a;
+
+}
+
+
+.button1{
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #C38D9E,#41B3A3);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 35%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.sign2{
+  align-self: inherit;
+  margin-left: -2%;
+  margin-bottom: -3%;
+  padding-top: 40px;
+  color: #dd7c3c;
+  opacity: 0.9;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.button {
+    border-radius: 4px;
+    background-color: #e27d60;
+    border: none;
+    color: #333333;
+    text-align: center;
+    font-size: 28px;
+    padding: 7px;
+    width: 35%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 60%;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 10%;
+    right: -20px;
+    transition: 0.5s;
+    font-size: 70%;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form .submit {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #E8A87C;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.submitEvent {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #C38D9E,#41B3A3);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 4%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.submitEvent:hover{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.uploadFile {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #009999;
+    background: rgba(136, 126, 126, 0.08);
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: -4%;
+    margin-top:-5%;
+    width:130%;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.uploadFile:hover{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
