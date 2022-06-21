@@ -20,7 +20,7 @@
         <flyway-core.version>5.2.4</flyway-core.version>
         <tomcat7-maven-plugin.version>2.2</tomcat7-maven-plugin.version>
         <spring_test.version>5.1.8.RELEASE</spring_test.version>
-        <mysqlconnector.version>8.0.16</mysqlconnector.version>
+        <mysqlconnector.version>8.0.28</mysqlconnector.version>
         <h2.version>1.4.196</h2.version>
         <springmockmvc.version>4.0.0</springmockmvc.version>
         <jsonpath>2.4.0</jsonpath>
